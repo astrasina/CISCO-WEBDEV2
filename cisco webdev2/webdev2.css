@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(to bottom, #FFE2E2, #86A788);
+    font-family: monospace;
+    align-items: center;
+}
+
+h1 {
+    padding: 80px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 70px;
+    color:#86A788;
+    text-shadow: 1px 1px 4px #000000;
+    transition-timing-function: linear;
+    transition: 0.3s;
+}
+
+h1:hover {
+    font-size: 72px;
+    text-shadow: 1px 1px 4px #023f02;
+    transition: 0.5s;
+    transition-timing-function: linear;
+}
+
+h5 {
+    align-items: center;
+    text-align: center;
+}
+
+.introduction , .comments , .selectors , .cascade {
+    background-color: #CAE8BD;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: helvetica;
+    text-align: left;
+    text-indent: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    border-style: inset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    transition-timing-function: linear;
+}
+
+h2 {
+    text-indent: 10px;
+    font-family: "Trirong", serif;
+    font-weight: bolder;
+}
+
+p {
+    font-family: monospace;
+}
+
+.introduction:hover {
+    transition: 0.2s;
+    transition-timing-function: linear;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.comments:hover {
+    transition: 0.2s;
+    transition-timing-function: linear;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.selectors:hover {
+    transition: 0.2s;
+    transition-timing-function: linear;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cascade:hover {
+    transition: 0.2s;
+    transition-timing-function: linear;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+li {
+    font-family: garamond;
+    color: #023f02;
+    font-weight: bolder;
+}

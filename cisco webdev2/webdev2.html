@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "webdev2.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body> 
+    <h1> Cisco: WebDev2 </h1>
+    <h5> This was made during the course-period. </h5>
+    <br>
+
+    <div class = introduction>
+        <h2> Introduction </h2>
+            <p> CSS Rule is a set of instructions that defines how a specific HTML element should be styled and presented. </p>
+            <p> It is composed of "selector" and its associated declaration block. </p>
+            <p> A declaration block is a set of properties and their corresponding values enclosed in {curly braces} </p>
+    </div>
+
+    <div class = comments>
+        <h2> CSS Comments </h2>
+            <p> Just use /* these characters */ for commenting. </p>
+            <p> Every programmer, even students, know why we use comments. </p>
+            <p> "Comments are essential for documenting your code, providing context, and explaining design decisions." </p>
+    </div>    
+    
+    <div class = selectors>
+        <h2> Element Selectors </h2>
+        <p> The most basic form of CSS selector is the element selector, also known as the type selector. 
+            It allows you to target a specific HTML element to apply styles to, based on that element tag name. 
+            The styles you apply will affect all instances of that specific HTML element on your web page. </p>
+
+        <h2> Class Selectors </h2>
+        <p> Class selectors allow you to target HTML elements with a specific class attribute.
+            They are denoted by a period (.) followed by the class name. </p>
+        <p> Unlike element selectors, class selectors provide a higher level of specificity </p>
+
+        <h2> ID Selectors </h2>
+        <p> ID selectors target a single HTML element with a unique ID attribute.
+            They are denoted by a hash symbol (#) followed by the ID name. </p>
+        <p> Class selectors are versatile in applying consistent styles to multiple elements, while ID selectors provide specificity by focusing on a solitary and distinctive element. </p>
+
+        <h2> Attribute Selectors </h2>
+        <p> Attribute selectors allow you to target elements based on their attributes. 
+            They're like filters for elements with specific attributes. </p>
+        <p> There are different types of Attribute Selector: </p>
+            <li> Exact Match Selector </li>
+                <p> This selector targets elements with an attribute that exactly matches a value. </p>
+                <p> [attribute="value"] {
+                        /* styles */
+                    } 
+                </p>
+            <li> Substring Match Selector </li>
+                <p> This selector targets elements with an attribute containing a specified value. </p>
+                <p> [attribute*="value"] {
+                        /* styles */
+                    }
+                </p>
+            <li> Prefix Match Selector </li>
+                <p> This selector targets elements with an attribute starting with a value. </p>
+                <p> [attribute^="value"] {
+                        /* styles */
+                    }
+                </p>
+            <li> Suffix Match Selector </li>
+                <p> The selector targets elements with an attribute ending with a value. </p>
+                <p> [attribute$="value"] {
+                        /* styles */
+                    }
+                </p>
+    </div>
+
+    <div class = cascade> 
+        <h2> CSS Cascade </h2>
+            <p> CSS cascade determines which rule takes precedence. </p>
+            <p> In general, it follows a specific order: inline styles have the highest precedence, followed by IDs, classes, and element selectors. </p>
+    
+        <h2> !important </h2>
+            <p> The !important declaration is used to give a style higher precedence, overriding other styles (even those with higher specificity!).
+                It's like a trump card that can disrupt the natural order of the cascade, where styles are typically applied in a specific sequence based on factors like specificity and order. </p>
+    </div>
+
+</body>
+</html>
