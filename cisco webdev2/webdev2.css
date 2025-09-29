@@ -2,7 +2,18 @@ body {
     background-image: linear-gradient(to bottom, #FFE2E2, #86A788);
     font-family: monospace;
     align-items: center;
+    overflow: scroll;
+    margin: 0;
 }
+
+/* header {
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    background-color: #FFE2E2;
+} */
 
 h1 {
     padding: 80px;
@@ -85,4 +96,38 @@ li {
     font-family: garamond;
     color: #023f02;
     font-weight: bolder;
+}
+
+/* chapter 3 */
+
+h3 { 
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    color:#86A788;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.chapter3 {
+    overflow-x: auto; /* enables horizontal scrolling */
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.third {
+    text-align: center;
+    align-items: center;
+    font-family: garamond;
+    min-width: 95%; /* minimum width of the table */
+    max-width: 95%;
+}
+
+.third th, .third td {
+    border: 1px solid #000000;
+    padding: 30px; /* padding for cell content */
+
+.third th:nth-child(odd) {
+    background-color: #FFCFCF; /* alternate row background */
 }
