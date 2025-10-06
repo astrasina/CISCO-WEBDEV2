@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #FFE2E2, #86A788);
+    background-image: radial-gradient(circle, #FFFDEC, #FFCFCF);
     font-family: monospace;
     align-items: center;
     overflow: scroll;
@@ -36,6 +36,31 @@ h1:hover {
 h5 {
     align-items: center;
     text-align: center;
+}
+
+.page2 {
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+  background-color: #023f02;
+  border: none;
+  box-shadow: 1px 1px 4px #000000;
+  border-radius: 5px;
+  color: #FFFDEC;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: #FFFDEC;
+    color: #023f02;
 }
 
 .introduction , .comments , .selectors , .cascade {
@@ -127,6 +152,7 @@ h3 {
 .third th, .third td {
     border: 1px solid #000000;
     padding: 30px; /* padding for cell content */
+}
 
 .third th:nth-child(odd) {
     background-color: #FFCFCF; /* alternate row background */
