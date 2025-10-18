@@ -5,7 +5,7 @@ body{
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #3B0270, #E9B3FB, #3B0270);
+    /* background-image: linear-gradient(to right, #3B0270, #E9B3FB, #3B0270); */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -20,18 +20,18 @@ h1 {
     color: #FFF1F1;
 }
 
-p{
+p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.btn-primary {
-    background-color: #FFF1F1;
+/* .learn1 {
+    background-color:#3B0270;
     text-decoration: none;
     padding: 15px;
     width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
+    font-family: monospace;
+} */
+    
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 1px 1px 4px black;
@@ -40,7 +40,6 @@ h2 {
 }
 
 .card-img-top {
-    size: 10px;
     border: none;
     border-radius: 100px;
 }
